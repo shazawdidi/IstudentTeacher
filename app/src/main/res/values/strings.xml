@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">IStudentTeacher</string>
+    <string name="class_name">Class1 </string>
+    <string name="title_activity_base_component">BaseComponent</string>
+    <string name="title_home">Home</string>
+    <string name="title_assignment">Assignment</string>
+    <string name="title_degree">Degree</string>
+    <string name="attendance">Attendance</string>
+    <string name="upcoming_event">Upcoming Event</string>
+    <string name="teachers">Teachers</string>
+    <string name="attendance_today">Attendance Today</string>
+    <string name="math">Math</string>
+    <string name="there_was_home_work">There Was Home Work :</string>
+    <string name="check_bag">Check Your Child Bag</string>
+    <string name="it_should_be_handed">It should be handed next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="magazine">Magazine</string>
+    <string name="up_coming_events">Up Coming Events</string>
+    <string name="assingment_tips">If You get an assignment Please Check Your child bag</string>
+    <string name="track_school_bus">Track School Bus</string>
+    <string name="student_fees">Student Fees</string>
+    <string name="time_table">Time Table</string>
+    <string name="title_students">Students</string>
+    <string name="teacher_name">Mohammed Alno3man</string>
+    <string name="coming_lecture">2 Up Coming Lecture</string>
+    <string name="title_activity_login">Teachers Login</string>
+    <string name="prompt_phone">Phone Number</string>
+     <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

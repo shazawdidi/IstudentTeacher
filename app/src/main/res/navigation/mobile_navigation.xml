@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.tztechs.teacher.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_attendance"
+        android:name="com.tztechs.teacher.ui.takeAttendance.TakeAttendanceFragment"
+        android:label="@string/attendance"
+        tools:layout="@layout/fragment_attendance" />
+
+    <fragment
+        android:id="@+id/navigation_assignment"
+        android:name="com.tztechs.teacher.ui.assignment.AssignmentFragment"
+        android:label="@string/title_students"
+        tools:layout="@layout/fragment_assignment" />
+    <fragment
+        android:id="@+id/navigation_time_table"
+        android:name="com.tztechs.teacher.ui.timeTable.TimeTableFragment"
+        android:label="@string/title_students"
+        tools:layout="@layout/fragment_timetable" />
+
+    <fragment
+        android:id="@+id/navigation_students"
+        android:name="com.tztechs.teacher.ui.students.StudentsFragment"
+        android:label="@string/title_students"
+        tools:layout="@layout/fragment_students" />
+</navigation>
