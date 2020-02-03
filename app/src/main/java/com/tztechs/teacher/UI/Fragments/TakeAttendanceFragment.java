@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.assignment;
+package com.tztechs.teacher.UI.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,17 +10,17 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
+import com.tztechs.teacher.UI.takeAttendance.TakeAttendanceViewModel;
 
+public class TakeAttendanceFragment extends Fragment {
 
-public class AssignmentFragment extends Fragment {
-
-    private AssignmentsViewModel dashboardViewModel;
+    private TakeAttendanceViewModel takeAttendanceViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                ViewModelProviders.of(this).get(AssignmentsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_assignment, container, false);
+        takeAttendanceViewModel =
+                ViewModelProviders.of(this).get(TakeAttendanceViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_attendance, container, false);
 
         return root;
     }

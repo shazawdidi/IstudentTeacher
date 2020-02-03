@@ -1,16 +1,16 @@
-package com.tztechs.teacher.ui.students;
+package com.tztechs.teacher.UI.assignment;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class StudentsViewModel extends ViewModel {
+public class AssignmentsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public StudentsViewModel() {
+    public AssignmentsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is students fragment");
+        mText.setValue("This is dashboard fragment");
     }
 
     public LiveData<String> getText() {

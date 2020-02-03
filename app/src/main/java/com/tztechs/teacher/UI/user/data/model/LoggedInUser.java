@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.user.data.model;
+package com.tztechs.teacher.UI.user.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

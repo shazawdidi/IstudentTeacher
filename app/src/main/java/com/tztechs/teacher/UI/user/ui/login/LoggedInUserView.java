@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.user.ui.login;
+package com.tztechs.teacher.UI.user.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

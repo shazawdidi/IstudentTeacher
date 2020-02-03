@@ -1,9 +1,10 @@
-package com.tztechs.teacher;
+package com.tztechs.teacher.UI.Activitys;
 
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+import com.tztechs.teacher.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

@@ -1,6 +1,6 @@
-package com.tztechs.teacher.ui.user.data;
+package com.tztechs.teacher.UI.user.data;
 
-import com.tztechs.teacher.ui.user.data.model.LoggedInUser;
+import com.tztechs.teacher.UI.user.data.model.LoggedInUser;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.home;
+package com.tztechs.teacher.UI.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

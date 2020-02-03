@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.user.data;
+package com.tztechs.teacher.UI.user.data;
 
 /**
  * A generic class that holds a result success w/ data or an error exception.

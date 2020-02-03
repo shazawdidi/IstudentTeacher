@@ -1,4 +1,4 @@
-package com.tztechs.teacher.ui.timeTable;
+package com.tztechs.teacher.UI.timeTable;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
