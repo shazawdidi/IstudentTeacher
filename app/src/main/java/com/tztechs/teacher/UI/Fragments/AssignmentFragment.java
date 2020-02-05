@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
-import com.tztechs.teacher.UI.assignment.AssignmentsViewModel;
+import com.tztechs.teacher.Models.AssignmentsViewModel;
 
 
 public class AssignmentFragment extends Fragment {

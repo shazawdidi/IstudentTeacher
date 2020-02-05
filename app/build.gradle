@@ -18,6 +18,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
 }
 
 dependencies {
@@ -37,4 +41,10 @@ dependencies {
     implementation "com.google.android.material:material:1.0.0"
     implementation 'me.majiajie:pager-bottom-tab-strip:2.3.0X'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    //RETROFIT**************************************************************************************
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.6.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.1.1'
 }

@@ -1,16 +1,16 @@
-package com.tztechs.teacher.UI.home;
+package com.tztechs.teacher.Models;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class TimeTableViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public TimeTableViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("This is time table fragment");
     }
 
     public LiveData<String> getText() {

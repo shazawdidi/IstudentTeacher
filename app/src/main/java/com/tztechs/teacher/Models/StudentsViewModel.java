@@ -1,4 +1,4 @@
-package com.tztechs.teacher.UI.students;
+package com.tztechs.teacher.Models;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

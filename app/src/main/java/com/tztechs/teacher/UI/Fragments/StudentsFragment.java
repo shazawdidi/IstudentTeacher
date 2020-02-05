@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
-import com.tztechs.teacher.UI.students.StudentsViewModel;
+import com.tztechs.teacher.Models.StudentsViewModel;
 
 public class StudentsFragment extends Fragment {
 

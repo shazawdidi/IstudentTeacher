@@ -10,19 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".UI.login.LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:name=".UI.Activates.LoginActivity"
+            android:label="@string/title_activity_login">
+        </activity>
         <activity
-            android:name=".UI.Activitys.BaseComponent"
+            android:name=".UI.Activates.BaseComponent"
             android:label="@string/title_activity_base_component" />
-        <activity android:name=".UI.Activitys.MainActivity">
+        <activity android:name=".UI.Activates.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UI.Activitys.LoginActivity" />
+<!--        <activity android:name=".UI.Activates.LoginActivity" />-->
     </application>
 
 </manifest>

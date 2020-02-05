@@ -1,4 +1,4 @@
-package com.tztechs.teacher.UI.Activitys;
+package com.tztechs.teacher.UI.Activates;
 
 import android.os.Bundle;
 

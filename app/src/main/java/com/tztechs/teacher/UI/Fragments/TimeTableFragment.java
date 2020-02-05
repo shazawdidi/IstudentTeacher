@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
-import com.tztechs.teacher.UI.timeTable.TimeTableViewModel;
+import com.tztechs.teacher.Models.TimeTableViewModel;
 
 
 /**

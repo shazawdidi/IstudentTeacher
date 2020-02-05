@@ -1,16 +1,16 @@
-package com.tztechs.teacher.UI.timeTable;
+package com.tztechs.teacher.Models;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class TimeTableViewModel extends ViewModel {
+public class TakeAttendanceViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public TimeTableViewModel() {
+    public TakeAttendanceViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is time table fragment");
+        mText.setValue("This is attendance fragment");
     }
 
     public LiveData<String> getText() {

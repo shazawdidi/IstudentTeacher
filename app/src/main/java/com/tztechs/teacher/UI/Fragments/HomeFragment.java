@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
-import com.tztechs.teacher.UI.home.HomeViewModel;
+import com.tztechs.teacher.Models.HomeViewModel;
 
 public class HomeFragment extends Fragment {
 

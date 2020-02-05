@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.tztechs.teacher.R;
-import com.tztechs.teacher.UI.takeAttendance.TakeAttendanceViewModel;
+import com.tztechs.teacher.Models.TakeAttendanceViewModel;
 
 public class TakeAttendanceFragment extends Fragment {
 

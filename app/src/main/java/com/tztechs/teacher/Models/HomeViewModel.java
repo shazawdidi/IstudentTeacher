@@ -1,16 +1,16 @@
-package com.tztechs.teacher.UI.takeAttendance;
+package com.tztechs.teacher.Models;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class TakeAttendanceViewModel extends ViewModel {
+public class HomeViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public TakeAttendanceViewModel() {
+    public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is attendance fragment");
+        mText.setValue("This is home fragment");
     }
 
     public LiveData<String> getText() {
