@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
 
-    public static final String BASE_URL = "";
+    public static final String BASE_URL = "http://127.0.0.1/";
     public static final long SIZE_OF_CACHE = 10 * 1024 * 1024;
     public static Retrofit getClient(String baseUrl)
     {
