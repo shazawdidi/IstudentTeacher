@@ -7,9 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".UI.Activates.LoginActivity">
 
-    <FrameLayout
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/loginFragmentHolder"
-        />
+        android:layout_height="match_parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
