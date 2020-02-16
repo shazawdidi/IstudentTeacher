@@ -2,6 +2,8 @@ package com.tztechs.teacher.UI;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
@@ -12,8 +14,8 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
 
     int count;
 
-    public ViewPagerAdapter(@NonNull Fragment fragment, int count) {
-        super(fragment);
+    public ViewPagerAdapter(@NonNull FragmentManager fragmentManager, @NonNull Lifecycle lifecycle, int count) {
+        super(fragmentManager, lifecycle);
         this.count = count;
     }
 

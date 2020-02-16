@@ -47,7 +47,11 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
     implementation 'com.squareup.retrofit2:converter-moshi:2.6.1'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.1.1'
-    //new View Pager**************************************************************************************
+    //new View Pager********************************************************************************
     implementation 'com.google.android.material:material:1.2.0-alpha04'
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    //pin entry********************************************************************************
+    implementation('com.alimuzaffar.lib:pinentryedittext:2.0.6') {
+        exclude group: 'android.appcompat', module: 'appcompat'
+    }
 }
